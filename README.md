@@ -73,23 +73,23 @@
     -   _A: The algorithm works by comparing each pair of adjacent elements in the list and swapping them if they are in the wrong order. This process is repeated from the beginning until the entire list is sorted. The largest element "bubbles up" to its correct position in each pass._
     -   _Q: What is the time complexity of Bubble Sort?_
     -   _A: The time complexity of Bubble Sort is O(n^2) in the worst and average cases, where "n" is the number of elements in the list. This makes it less efficient for large datasets._
-        _Q: When is Bubble Sort a suitable choice?_
-        _A: Bubble Sort is suitable for small datasets or partially sorted datasets. However, due to its higher time complexity, it's generally not the best choice for large or heavily unsorted datasets._
-        _Q: What is the space complexity of Bubble Sort?_
-        _A: Bubble Sort has a space complexity of O(1) because it only requires a constant amount of additional memory space for temporary variables._
+    -   _Q: When is Bubble Sort a suitable choice?_
+    -   _A: Bubble Sort is suitable for small datasets or partially sorted datasets. However, due to its higher time complexity, it's generally not the best choice for large or heavily unsorted datasets._
+    -   _Q: What is the space complexity of Bubble Sort?_
+    -   _A: Bubble Sort has a space complexity of O(1) because it only requires a constant amount of additional memory space for temporary variables._
 
 12. **Insertion Sort:**
 
-    _Q: What is Insertion Sort?_
-    _A: Insertion Sort is a simple sorting algorithm that builds the final sorted array one element at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort._
-    _Q: How does Insertion Sort work?_
-    _A: The algorithm iterates through the list, considering one element at a time and inserting it into its correct position among the already sorted elements. It repeats this process until the entire list is sorted._
-    _Q: What is the time complexity of Insertion Sort?_
-    _A: The time complexity of Insertion Sort is O(n^2) in the worst and average cases, where "n" is the number of elements in the list. It performs well for small datasets or partially sorted datasets._
-    _Q: When is Insertion Sort a suitable choice?_
-    _A: Insertion Sort is a suitable choice for small datasets or nearly sorted datasets. It's an in-place sorting algorithm, meaning it doesn't require additional memory space for sorting._
-    _Q: What is the space complexity of Insertion Sort?_
-    _A: Insertion Sort has a space complexity of O(1) because it only requires a constant amount of additional memory space for temporary variables._
+    -   _Q: What is Insertion Sort?_
+    -   _A: Insertion Sort is a simple sorting algorithm that builds the final sorted array one element at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort._
+    -   _Q: How does Insertion Sort work?_
+    -   _A: The algorithm iterates through the list, considering one element at a time and inserting it into its correct position among the already sorted elements. It repeats this process until the entire list is sorted._
+    -   _Q: What is the time complexity of Insertion Sort?_
+    -   _A: The time complexity of Insertion Sort is O(n^2) in the worst and average cases, where "n" is the number of elements in the list. It performs well for small datasets or partially sorted datasets._
+    -   _Q: When is Insertion Sort a suitable choice?_
+    -   _A: Insertion Sort is a suitable choice for small datasets or nearly sorted datasets. It's an in-place sorting algorithm, meaning it doesn't require additional memory space for sorting._
+    -   _Q: What is the space complexity of Insertion Sort?_
+    -   _A: Insertion Sort has a space complexity of O(1) because it only requires a constant amount of additional memory space for temporary variables._
 
 13. **Selection Sort:**
 
